@@ -2,7 +2,7 @@ networks:
   default:
     driver: bridge 
     name: roboshop
-    external: true  #It mean I created network already using docker network create roboshop even if i 
+    #external: true  #It mean I created network already using docker network create roboshop 
 services:
   mongodb:
     image: sriharibandidevops/mongodb:v1
