@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ -f /tmp/roboshop/mysql/password.txt ]; then 
-    PASSWORD$(cat /tmp/roboshop/mysql/password.txt)
+    PASSWORD$(cat /tmp/mysql_root_password.txt)
     echo "Access Root Password"
 else
     echo "Password file not found"
