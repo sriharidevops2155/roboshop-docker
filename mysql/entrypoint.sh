@@ -5,7 +5,7 @@ if [ -f /tmp/roboshop/mysql/password.txt ]; then
     echo "Access Root Password"
 else
     echo "Password file not found"
-    exit
+    exit 1
 fi
 
 #Making it as avilable in env
